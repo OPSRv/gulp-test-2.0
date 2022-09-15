@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.page {
+  height: 100%;
+  font-family: var(--font-family, sans-serif);
+  background-color: rgb(69, 69, 69);
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,14 @@
+.svg-icon {
+  max-height: 689px;
+  min-height: 337px;
+  width: 100%;
+  font-family: "Aeonik-Bold";
+}
+
+.selector {
+  color: red;
+
+  @include respond-to("small") {
+    color: blue;
+  }
+}
